@@ -1,4 +1,4 @@
-namespace haxe.items.haxe {
+namespace modID.items.haxe {
 	class ItemTest: Terraria.ModLoader.ModItem {
 		public override void SetStaticDefaults() {
 			this.DisplayName.SetDefault("Haxe");

@@ -1,2 +1,2 @@
-import haxe.items.haxe.ItemTest;
-import haxe.npcs.haxe.EnemyTest;
+import modID.items.haxe.ItemTest;
+import modID.npcs.haxe.EnemyTest;

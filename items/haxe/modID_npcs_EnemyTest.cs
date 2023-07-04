@@ -1,4 +1,4 @@
-namespace haxe.npcs.haxe {
+namespace modID.npcs.haxe {
 	class EnemyTest: Terraria.ModLoader.ModNPC {
 		public override void SetStaticDefaults() {
 			this.DisplayName.SetDefault("HaxeTestZombie");
@@ -19,7 +19,7 @@ namespace haxe.npcs.haxe {
 			float testFl = 1.0f;
 		}
 
-		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
+		public override float SpawnChance(Terraria.ModLoader.NPCSpawnInfo spawnInfo) {
 			return Terraria.ModLoader.Utilities.SpawnCondition.OverworldDay.Chance * 0.5f;
 		}
 	}

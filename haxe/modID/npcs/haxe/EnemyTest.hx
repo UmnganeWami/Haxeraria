@@ -1,4 +1,4 @@
-package haxe.npcs.haxe;
+package modID.npcs.haxe;
 
 import TMod.NPCSpawnInfo;
 import SpawnConditions;

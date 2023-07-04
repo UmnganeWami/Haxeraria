@@ -1,4 +1,4 @@
-package haxe.items.haxe;
+package modID.items.haxe;
 import TMod;
 import TMod.NPCType;
 import TMod.NPC;

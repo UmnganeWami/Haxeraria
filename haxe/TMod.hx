@@ -22,7 +22,7 @@ abstract TypeId<T>(Int) to Int {}
 function NPCType<T:ModNPC>():TypeId<T>;
 var id:TypeId<MyNpc> = NpcType();
 */
-
+@:native("Terraria.ModLoader.NPCSpawnInfo")
 extern class NPCSpawnInfo {
 
 }
