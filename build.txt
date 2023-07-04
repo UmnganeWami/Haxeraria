@@ -1,0 +1,3 @@
+displayName = HaxeMod
+author = wami
+version = 0.1

@@ -1,0 +1,9 @@
+@echo off
+haxe build.hxml
+cd Items/haxe
+del "Main.cs"
+del "HaxeBoot.cs"
+del "build.csproj"
+del "_GeneratedFiles.txt"
+cd ..
+cd ..

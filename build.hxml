@@ -1,0 +1,7 @@
+--class-path haxe
+--main Main
+#-D net_loader_debug
+-D no-compilation
+-lib csharp
+#--custom-target csharp=out
+-D cs-output=Items/haxe
